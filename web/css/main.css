@@ -1,0 +1,56 @@
+body																{ font-family: Helvetica Neue, sans-serif; font-size: 12px; text-align: center; }
+
+a																		{ color: #0048ff; text-decoration: none; }
+a:visited														{ color: #0048ff; }
+
+h1																	{ font-size: 3em; font-weight: bold; margin-bottom: 25px; }
+h2																	{ font-size: 1.5em; font-weight: bold; margin: 0 0 15px 0; }
+
+strong															{ font-weight: bold; }
+
+p																		{ font-size: 1.3em; margin: 0 0 15px 0; line-height: 150%;}
+
+#container													{ margin: auto; padding: 50px 0 50px 0; width: 700px; }
+
+#service_description								{ margin: auto; width: 580px; }
+
+#service_signup											{ margin-top: 15px; border-bottom: 2px solid #d3d3d3; padding: 15px 0 25px 0; }
+#service_signup .text_area					{ font-size: 1.4em; padding: 5px; }
+#service_signup .submit_button 			{ font-size: 1.4em; padding: 15px 5px 10px 5px; }
+
+#service_benefits										{ border-bottom: 2px solid #d3d3d3; padding-bottom: 15px; }
+#service_benefits ul								{ margin: 40px auto auto auto; width: 500px; text-align: left; }
+#service_benefits ul li							{ font-size: 1.5em; margin: 0 0 10px 0; clear: both; }
+.service_benefits_image							{ width: 120px; height: 75px; background: gray; float: left; margin: 0 15px 15px 0; border: 1px solid #d3d3d3; padding: 1px; }
+.service_benefits_text 							{ padding-top: 5px; }
+
+#service_examples										{ text-align: left; margin: 35px 0 0 0; }
+#service_examples ul li							{ width: 128px; height: 110px; background: gray; float: left; margin: 0 15px 15px 0; }
+#service_examples ul li:last-child	{ margin-right: 0; }
+
+#connect_description								{ margin: auto; width: 500px; }
+
+#connect_area												{ margin: 40px 0 0 0; }
+
+#connect_area_tabs									{ width: 140px; text-align: left; float: left; border-right: 1px solid #d3d3d3; }
+#connect_area_tabs li								{ padding: 5px; font-size: 1.3em; color: #0048ff; cursor: pointer; }
+#connect_area_tabs .selected				{ font-weight: bold; color: black !important; cursor: default !important; }
+
+#connect_area_content								{ float: left; width: 519px; text-align: left; padding-left: 40px;  }
+#connect_area_content ul						{ margin-top: 15px; }
+#connect_area_content ul li					{ margin-bottom: 10px; font-size: 1.2em; } 
+
+#payment_description								{ width: 500px; margin: auto; }
+
+#continue														{ font-size: 1.8em; margin-top: 25px; }
+
+#col1																{ width: 200px; float: left; margin-right: 30px; text-align: left; }
+#col1 ul														{ margin: 15px 0 15px 0; }
+#col1 ul li													{ margin: 10px 0 10px 0; font-size: 1.2em; }
+#col1 ul li	img											{ margin-right: 5px; vertical-align: middle; }
+
+#col2																{ width: 470px; text-align: left; float: left; }
+
+#posts li														{ margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px; }
+.post_content												{ margin-bottom: 5px; font-size: 1.3em; line-height: 150%; }
+.post_meta													{ color: gray; }
